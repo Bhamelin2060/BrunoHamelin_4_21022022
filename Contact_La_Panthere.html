@@ -99,7 +99,7 @@
 								 Veuillez Entrez votre nom
 							</p>
 						 </div>
-						<input type="text" name="name" id="name" class="form-control" placeholder="Nom" required />
+						<input type="text" name="name" id="name" class="form-control" placeholder="Nom" aria-required="true" required />
 					</div>
 					<div class="form-group">
 						 
@@ -109,7 +109,7 @@
 								 Veuillez entrez votre adresse EMail ex: nom.prenom@free.fr
 							</p>
 						 </div>
-						<input type="email" name="Email" id="Email" class="form-control"  placeholder="Nom@outlook.fr" required />
+						<input type="email" name="Email" id="Email" class="form-control"  placeholder="Nom@outlook.fr" aria-required="true" required/>
 					</div>
 					<div class="form-group">
 						 
@@ -169,32 +169,32 @@
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a role="link" aria-label="lien vers twitter" class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span></a>
+								<a role="link" title="lien vers twitter" class="social" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a role="link" aria-label="lien vers facebook" class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+								<a role="link" title="lien vers facebook" class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a role="link" aria-label="lien vers dribbble" class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+								<a role="link" title="lien vers dribbble" class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a role="link" aria-label="lien vers instagram" class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
+								<a role="link" title="lien vers instagram" class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>	 
 					<div class="row">
 						<div class="col-sm-4">
 							Partenaires
-								<ul>
-									<li><a role="link" href="">Compte Clients</a></li>
-									<li><a role="link" href="">Avis</a></li>
-									<li><a role="link" href="">Carrières</a></li>
+								<ul role="navigation">
+									<li><a title="espace client" href=""">Compte Clients</a></li>
+									<li><a title="Avis client" href="#">Avis</a></li>
+									<li><a title="emploi" href="#">Carrières</a></li>
 									 
 								</ul>		
 						</div>
