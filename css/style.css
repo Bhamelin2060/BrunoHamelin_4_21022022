@@ -30,13 +30,6 @@ a:focus-visible {
     background: #f3976c; 
   }
 
-
-
-
-
- a,
- 
-
  
 a:hover {
     text-decoration: none;
@@ -1105,4 +1098,16 @@ h1 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+ 
+.form-group:hover .tooltip{
+    display: inline-block;
+    opacity: 0.5;
+    padding-left:10px; 
+    
+    color:#C54836;
+      
+}
+.form-group p{
+    font-size: 15px;
 }
